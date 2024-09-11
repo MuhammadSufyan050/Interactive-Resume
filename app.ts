@@ -18,7 +18,7 @@ function toggleContent(headerId: string, contentId: string): void {
             hideAllSections();  
             setTimeout(() => {
                 content.classList.add("show");
-            }, 1000);  
+            }, 2000);  
         }
     });
 }

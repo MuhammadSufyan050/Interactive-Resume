@@ -16,7 +16,7 @@ function toggleContent(headerId, contentId) {
             hideAllSections();
             setTimeout(function () {
                 content.classList.add("show");
-            }, 1000);
+            }, 2000);
         }
     });
 }
@@ -32,7 +32,6 @@ var educationHeader = document.getElementById("education-header");
 var skillsContent = document.getElementById("skills-content");
 var languagesContent = document.getElementById("languages-content");
 var educationContent = document.getElementById("education-content");
-// Make sure elements exist before adding event listeners
 if (skillsHeader && skillsContent) {
     skillsHeader.addEventListener("click", function () {
         skillsContent.classList.toggle("show");
